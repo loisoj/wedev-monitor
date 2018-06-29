@@ -1,0 +1,1 @@
+[2018-06-27 19-18-13] DibiDriverException: SQLSTATE[42S02]: Table 'xodlcxdd_ping.users' doesn't exist in /var/www/xodlcxdd/data/www/crm.we-dev.ru/lib/dibi.min.php:1102  @  http://crm.we-dev.ru/en/login  @@  exception-2018-06-27-19-18-13-2b64d4b6bfdb8767f095fdb48dcc6f84.html
