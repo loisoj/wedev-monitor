@@ -4,9 +4,9 @@
 	<meta charset="UTF-8">
 	<?php
 	if($_GET['locale'] == 'cs' && $_GET['page'] == 'index')
-		echo '<title>Runtime Monitoring dostupnosti • Stav webů a měření dostupnosti serverů</title>';
+		echo '<title>We::Monitor</title>';
 	elseif($_GET['page'] == 'index')
-		echo '<title>Runtime Uptime Monitoring • Website status and server availability</title>';
+		echo '<title>We::Monitor</title>';
 	else
 		echo '<title>'.str_replace('-', ' ', ucfirst($_GET['page'])).' • Runtime </title>';
 	?>
@@ -35,7 +35,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="index"><i class="icon-time"></i> runtime <sup>uptime</sup></a>
+						<a class="navbar-brand" href="index"><img src="/static/welogo.png" /> </a>
 					</div>
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<ul class="nav navbar-nav">
